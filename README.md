@@ -1,6 +1,6 @@
 # ogp.inkohx.dev
 
-Generate Open Graph images for inkohx.dev
+Generate Open Graph images for inkohx.dev sites.
 
 ## Development Setup
 
