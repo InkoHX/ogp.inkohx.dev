@@ -1,9 +1,10 @@
+import { WorkerEntrypoint } from 'cloudflare:workers'
 import { type RendererType, renderers } from './renderers'
 import { validateSignature } from './signature'
 import { validateQueries } from './validator'
 
-export default {
-  async fetch(request, env, _executionContext): Promise<Response> {
+export default class OGPWorker extends WorkerEntrypoint<Cloudflare.Env> {
+  public async fetch(request: Request): Promise<Response> {
     try {
       const requestUrl = new URL(request.url)
       const queries = {
@@ -30,7 +31,7 @@ export default {
           title: queries.title,
           categories: queries.categories,
         },
-        env.SIGNATURE_KEY
+        this.env.SIGNATURE_KEY
       )
 
       if (!isVerified) {
@@ -65,5 +66,5 @@ export default {
 
       return new Response('Internal Server Error', { status: 500 })
     }
-  },
-} satisfies ExportedHandler<Cloudflare.Env>
+  }
+}
