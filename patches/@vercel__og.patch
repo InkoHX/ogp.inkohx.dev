@@ -1,0 +1,49 @@
+diff --git a/dist/index.edge.js b/dist/index.edge.js
+index e3cb870fb1fc261969933d6589a55079ae874ae8..af8d3f07858bbcd8d3dce521f695f34cdb13e974 100644
+--- a/dist/index.edge.js
++++ b/dist/index.edge.js
+@@ -20292,7 +20292,7 @@ var Resvg2 = class extends Resvg {
+ };
+ 
+ // src/index.edge.ts
+-import resvg_wasm from "./resvg.wasm?module";
++import resvg_wasm from "./resvg.wasm";
+ 
+ // src/emoji/index.ts
+ var U200D = String.fromCharCode(8205);
+@@ -20528,22 +20528,12 @@ async function render(satori, resvg, opts, defaultFonts, element) {
+ 
+ // src/index.edge.ts
+ var initializedResvg = initWasm(resvg_wasm);
+-var fallbackFont = fetch(
+-  new URL("./noto-sans-v27-latin-regular.ttf", import.meta.url)
+-).then((res) => res.arrayBuffer());
+ var ImageResponse = class extends Response {
+   constructor(element, options = {}) {
+     const result = new ReadableStream({
+       async start(controller) {
+-        const [fontData] = await Promise.all([fallbackFont, initializedResvg]);
+-        const fonts = [
+-          {
+-            name: "sans serif",
+-            data: fontData,
+-            weight: 700,
+-            style: "normal"
+-          }
+-        ];
++        await Promise.all([initializedResvg]);
++        const fonts = [];
+         const result2 = await render(Tl, resvg_wasm_exports, options, fonts, element);
+         controller.enqueue(result2);
+         controller.close();
+@@ -20552,7 +20542,6 @@ var ImageResponse = class extends Response {
+     super(result, {
+       headers: {
+         "content-type": "image/png",
+-        "cache-control": process.env.NODE_ENV === "development" ? "no-cache, no-store" : "public, immutable, no-transform, max-age=31536000",
+         ...options.headers
+       },
+       status: options.status,
+diff --git a/dist/noto-sans-v27-latin-regular.ttf b/dist/noto-sans-v27-latin-regular.ttf
+deleted file mode 100644
+index 56941acbd71c3f37605075b20b38fe0c37c3ea26..0000000000000000000000000000000000000000

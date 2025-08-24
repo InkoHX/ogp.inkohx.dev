@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+patchedDependencies:
+  '@vercel/og': patches/@vercel__og.patch
