@@ -11,6 +11,9 @@ cp .env.dev.vars .dev.vars
 # Install dependencies
 pnpm i
 
+# Generate Worker types
+pnpm cf-typegen
+
 # Start development server
 pnpm dev
 ```
