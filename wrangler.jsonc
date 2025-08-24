@@ -2,5 +2,8 @@
   "name": "ogp-inkohx-dev",
   "main": "./src/index.ts",
   "minify": true,
-  "compatibility_date": "2025-08-16"
+  "compatibility_date": "2025-08-16",
+  "observability": {
+    "enabled": true
+  }
 }
