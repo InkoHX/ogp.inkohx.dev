@@ -57,6 +57,9 @@ export default class OGPWorker extends WorkerEntrypoint<Cloudflare.Env> {
           await cache.put(cacheKey, response.clone())
         }
 
+        response.headers.set('Access-Control-Allow-Origin', '*')
+        response.headers.set('Access-Control-Allow-Methods', 'GET')
+
         return response
       }
 
