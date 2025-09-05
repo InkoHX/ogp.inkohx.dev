@@ -10,7 +10,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
-    "@biomejs/biome": "2.2.2",
+    "@biomejs/biome": "2.2.3",
     "@types/react": "19.1.12",
     "wrangler": "4.33.2"
   },
