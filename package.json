@@ -11,7 +11,7 @@
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
-    "@types/react": "19.1.13",
+    "@types/react": "19.1.14",
     "wrangler": "4.33.2"
   },
   "dependencies": {
