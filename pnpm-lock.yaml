@@ -17,8 +17,8 @@ importers:
         specifier: jsr:1.0.10
         version: '@jsr/std__encoding@1.0.10'
       '@vercel/og':
-        specifier: 0.8.5
-        version: 0.8.5(patch_hash=7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4)
+        specifier: 0.8.6
+        version: 0.8.6(patch_hash=7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4)
       react:
         specifier: 19.1.4
         version: 19.1.4
@@ -434,8 +434,8 @@ packages:
   '@types/react@19.1.17':
     resolution: {integrity: sha512-Qec1E3mhALmaspIrhWt9jkQMNdw6bReVu64mjvhbhq2NFPftLPVr+l1SZgmw/66WwBNpDh7ao5AT6gF5v41PFA==}
 
-  '@vercel/og@0.8.5':
-    resolution: {integrity: sha512-fHqnxfBYcwkamlEgcIzaZqL8IHT09hR7FZL7UdMTdGJyoaBzM/dY6ulO5Swi4ig30FrBJI9I2C+GLV9sb9vexA==}
+  '@vercel/og@0.8.6':
+    resolution: {integrity: sha512-hBcWIOppZV14bi+eAmCZj8Elj8hVSUZJTpf1lgGBhVD85pervzQ1poM/qYfFUlPraYSZYP+ASg6To5BwYmUSGQ==}
     engines: {node: '>=16'}
 
   acorn-walk@8.3.2:
@@ -925,7 +925,7 @@ snapshots:
     dependencies:
       csstype: 3.2.3
 
-  '@vercel/og@0.8.5(patch_hash=7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4)':
+  '@vercel/og@0.8.6(patch_hash=7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4)':
     dependencies:
       '@resvg/resvg-wasm': 2.4.0
       satori: 0.16.0
