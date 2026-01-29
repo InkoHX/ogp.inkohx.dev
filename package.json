@@ -17,6 +17,6 @@
   "dependencies": {
     "@std/encoding": "jsr:1.0.10",
     "@vercel/og": "0.8.6",
-    "react": "19.1.4"
+    "react": "19.1.5"
   }
 }
