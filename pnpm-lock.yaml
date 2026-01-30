@@ -20,8 +20,8 @@ importers:
         specifier: 0.8.6
         version: 0.8.6(patch_hash=7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4)
       react:
-        specifier: 19.1.4
-        version: 19.1.4
+        specifier: 19.1.5
+        version: 19.1.5
     devDependencies:
       '@biomejs/biome':
         specifier: 2.2.7
@@ -577,8 +577,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  react@19.1.4:
-    resolution: {integrity: sha512-DHINL3PAmPUiK1uszfbKiXqfE03eszdt5BpVSuEAHb5nfmNPwnsy7g39h2t8aXFc/Bv99GH81s+j8dobtD+jOw==}
+  react@19.1.5:
+    resolution: {integrity: sha512-lCX00zqONdNfcnJYEL91LuNYzyWFU70vKhApUR08Y1Fi/Y5FGw6l6hAWtlkq+k/vnx463XLm/5dyQp5HAJCw6Q==}
     engines: {node: '>=0.10.0'}
 
   satori@0.16.0:
@@ -1069,7 +1069,7 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  react@19.1.4: {}
+  react@19.1.5: {}
 
   satori@0.16.0:
     dependencies:
