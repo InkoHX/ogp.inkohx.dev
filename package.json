@@ -12,7 +12,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.2.7",
     "@types/react": "19.1.17",
-    "wrangler": "4.33.2"
+    "wrangler": "4.66.0"
   },
   "dependencies": {
     "@std/encoding": "jsr:1.0.10",
