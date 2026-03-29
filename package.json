@@ -11,12 +11,12 @@
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
     "@biomejs/biome": "2.2.7",
-    "@types/react": "19.1.17",
+    "@types/react": "19.2.14",
     "wrangler": "4.33.2"
   },
   "dependencies": {
     "@std/encoding": "jsr:1.0.10",
     "@vercel/og": "0.8.6",
-    "react": "19.1.5"
+    "react": "19.2.4"
   }
 }
