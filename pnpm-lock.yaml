@@ -495,8 +495,8 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  defu@6.1.6:
-    resolution: {integrity: sha512-f8mefEW4WIVg4LckePx3mALjQSPQgFlg9U8yaPdlsbdYcHQyj9n2zL2LJEA52smeYxOvmd/nB7TpMtHGMTHcug==}
+  defu@6.1.7:
+    resolution: {integrity: sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==}
 
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
@@ -974,7 +974,7 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  defu@6.1.6: {}
+  defu@6.1.7: {}
 
   detect-libc@2.1.2: {}
 
@@ -1134,7 +1134,7 @@ snapshots:
 
   unenv@2.0.0-rc.19:
     dependencies:
-      defu: 6.1.6
+      defu: 6.1.7
       exsolve: 1.0.8
       ohash: 2.0.11
       pathe: 2.0.3
