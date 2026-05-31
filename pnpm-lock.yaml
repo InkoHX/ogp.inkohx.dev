@@ -617,8 +617,8 @@ packages:
   ufo@1.6.4:
     resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
 
-  undici@7.25.0:
-    resolution: {integrity: sha512-xXnp4kTyor2Zq+J1FfPI6Eq3ew5h6Vl0F/8d9XU5zZQf1tX9s2Su1/3PiMmUANFULpmksxkClamIZcaUqryHsQ==}
+  undici@7.26.0:
+    resolution: {integrity: sha512-3O9Tf67pGhgOv9jM35AbhkXAKi13f3oy3aE4CSgr+TckGeY+/iu97ZXN+J7DpHPzLbVApFd1IFhcnBjREYXYcg==}
     engines: {node: '>=20.18.1'}
 
   unenv@2.0.0-rc.19:
@@ -1045,7 +1045,7 @@ snapshots:
       glob-to-regexp: 0.4.1
       sharp: 0.33.5
       stoppable: 1.1.0
-      undici: 7.25.0
+      undici: 7.26.0
       workerd: 1.20250829.0
       ws: 8.18.0
       youch: 4.1.0-beta.10
@@ -1130,7 +1130,7 @@ snapshots:
 
   ufo@1.6.4: {}
 
-  undici@7.25.0: {}
+  undici@7.26.0: {}
 
   unenv@2.0.0-rc.19:
     dependencies:
