@@ -559,8 +559,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  ohash@2.0.11:
-    resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
+  ohash@2.0.12:
+    resolution: {integrity: sha512-65S/5gk9YSsaRjcyf7Nfa6h/d3E8/1gslpXfI4W7Dxn/oap8IKRuNT5VXkLQ1YFKIEg4apRY4Pj6aiwFzrDdmw==}
 
   pako@0.2.9:
     resolution: {integrity: sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==}
@@ -1054,7 +1054,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  ohash@2.0.11: {}
+  ohash@2.0.12: {}
 
   pako@0.2.9: {}
 
@@ -1136,7 +1136,7 @@ snapshots:
     dependencies:
       defu: 6.1.7
       exsolve: 1.1.1
-      ohash: 2.0.11
+      ohash: 2.0.12
       pathe: 2.0.3
       ufo: 1.6.4
 
