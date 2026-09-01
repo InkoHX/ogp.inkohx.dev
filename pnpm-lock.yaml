@@ -5,9 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  '@vercel/og':
-    hash: 7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4
-    path: patches/@vercel__og.patch
+  '@vercel/og': 7872b567fbf3fee22d3c83e764ab4dcb8d474e3e8844ce48064e701e37a104c4
 
 importers:
 
